@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.icon-red{
+    background-color: red;
+}
+
+.secton2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+    height: 450px;
+    padding-top: 200px;
+    padding-bottom: 180px;
+}
+#illustration,#ui-design,#graphic-design{
+padding: 10px;
+}
+/* svg items rounding css */
+.rounding{
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+#svg-1{
+    background-color: red;
+}
+#svg-2{
+    background-color: rgb(228, 189, 19);
+}
+#svg-3{
+    background-color: rgb(55, 55, 255);
+}
+
+/* CSS for curves */
+.custom-shape-divider-top-1647174480 {
+    position: absolute;
+    top: 700px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1647174480 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 158px;
+}
+
+.custom-shape-divider-top-1647174480 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.custom-shape-divider-bottom-1647175144 {
+    position: absolute;
+    bottom: -650px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1647175144 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 158px;
+}
+
+.custom-shape-divider-bottom-1647175144 .shape-fill {
+    fill: #ffffff;
+}
+@media screen and (max-width:700px){
+    .secton2{
+        flex-wrap:wrap;
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .custom-shape-divider-bottom-1647175144{
+        bottom: -700px;
+    }
+}
