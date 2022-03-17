@@ -83,6 +83,10 @@ padding: 10px;
 .custom-shape-divider-bottom-1647175144 .shape-fill {
     fill: #ffffff;
 }
+.svgs-size{
+    width: 0.8rem;
+    height: 0.8rem;
+}
 /* Footer */
 footer{
     background-color: rgb(33, 40, 50);
