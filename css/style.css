@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 .box{
-    border: 2px solid black;
     text-align: center;
     margin-top: 90px;
     margin-bottom: 50px;
@@ -47,7 +46,7 @@ padding: 10px;
 /* CSS for curves */
 .custom-shape-divider-top-1647174480 {
     position: absolute;
-    top: 700px;
+    top: 690px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -84,6 +83,25 @@ padding: 10px;
 .custom-shape-divider-bottom-1647175144 .shape-fill {
     fill: #ffffff;
 }
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.items-foot h7{
+    font-weight: bold;
+}
+.items-foot ul{
+    list-style: none;
+    margin: 0px 0px 0px -30px;
+}
+.items-foot ul li a{
+    text-decoration: none;
+}
+
 @media screen and (max-width:700px){
     .secton2{
         flex-wrap:wrap;
