@@ -87,6 +87,39 @@ padding: 10px;
     width: 0.8rem;
     height: 0.8rem;
 }
+/* section 2 */
+.fleximgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.img-items a img{
+    margin-right: 28px;
+    border-radius: 7px;
+}
+.img-items a{
+    margin-bottom: 28px;
+    display: block;
+}
+.img-items div{
+  position: absolute;
+    
+}
+
+.small{
+    width: 290px;
+    height: 250px;
+}
+.medium{
+    height: 300px;
+    width: 290px;
+}
+.large{
+    height: 350px;
+    width: 290px;
+}
+
 /* Footer */
 footer{
     background-color: rgb(33, 40, 50);
@@ -143,6 +176,9 @@ footer{
     }
     .items-foot{
         margin-top: 20px;
+    }
+    .fleximgs{
+        flex-wrap: wrap;
     }
     
 }
